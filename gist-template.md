@@ -19,6 +19,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Regex Components
 
+Remember that a regex [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) is considered a [literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#regexp_literals). This means that the regex pattern must be within slash characters ( **/** ).
+
 ### Anchors
 
 The characters ^ and $ are both considered anchors.
