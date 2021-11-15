@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Computer Science for JavaScript: Regex Tutorial
 
 Introductory paragraph (replace this with your text)
 
@@ -20,6 +20,13 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+
+The characters ^ and $ are both considered anchors.
+
+| Character | Definition                                                           | Example      | Matches  |
+| :-------: | :------------------------------------------------------------------: | :----------: | :------: |
+|   **^**   |  Signifies a string that begins with the characters that follow it.  | ^The  | "The" or "The person" not "the person" or "the" |
+|   **$**   |  Signifies a string that ends with the characters that precede it    | .com$ | "webite.com" or "email@gmail.com" |
 
 ### Quantifiers
 
