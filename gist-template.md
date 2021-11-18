@@ -17,7 +17,9 @@ Now lets get into it, here is the pattern we will be decunstructing:
 
 [01]?[0-9][0-9]?)$/
 ```
+<p align="center">
 ![IP_Regex](https://user-images.githubusercontent.com/52815609/142356111-d4501b58-3c05-4230-b4eb-e9c87203be78.jpeg)
+</p>
 
 ## Table of Contents
 
