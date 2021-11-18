@@ -1,8 +1,8 @@
-# Computer Science for JavaScript: Matching an IP Address with Regex Tutorial
+# ```Computer Science for JavaScript: Matching an IP Address with Regex Tutorial```
 
 Have you ever needed to find an IP address in a body of text, within code, in an API or Database? Probably not, but after going through this tutorial you will know how to just using [regex](https://www.computerhope.com/jargon/r/regex.htm). After this tutorial you will also be able to utilize regular expressions to find and search anything, by creating your own patterns.
 
-## Summary
+## ```Summary```
 
 For the record I did not come up with this regex pattern myself. I will be using this regex pattern as a teaching example. By breakdown this regex down character for character I will be able to show you the different parts and pieces of a regex.
 
@@ -21,7 +21,7 @@ Now lets get into it, here is the pattern we will be decunstructing:
 <img src="https://user-images.githubusercontent.com/52815609/142356111-d4501b58-3c05-4230-b4eb-e9c87203be78.jpeg" />
 </p>
 
-## Table of Contents
+## ```Table of Contents```
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
@@ -32,13 +32,13 @@ Now lets get into it, here is the pattern we will be decunstructing:
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
 
-## Regex Components
+## ```Regex Components```
 
-Remember that a regex [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) is considered a [literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#regexp_literals). This means that the regex pattern must be within slash characters ( ```/``` ).
+Remember that a regex [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) is considered a [literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#regexp_literals). This means that the regex pattern must be within slash characters ( ```/``` ). These slashers are called [delimiters](https://www.computerhope.com/jargon/d/delimite.htm) and they are required for every regular expression.
 
-### Anchors
+### ```Anchors```
 
-The characters ```^``` and ```$``` are both considered anchors. As you can see in the IP regex the ```^``` marks the beginning of the line. Then the ```$``` is just before the final forward slash to mark the end of the line.
+The characters ```^``` and ```$``` are both considered [anchors](https://www.regular-expressions.info/anchors.html). As you can see in the IP regex the ```^``` marks the beginning of the line. Then the ```$``` is just before the final forward slash to mark the end of the line.
 
 | Character | Definition                                                           | Example      | Matches  |
 | :-------: | :------------------------------------------------------------------: | :----------: | :------: |
@@ -48,11 +48,14 @@ The characters ```^``` and ```$``` are both considered anchors. As you can see i
 ### Quantifiers
 
 
+
 ### Grouping Constructs
 
 ### Bracket Expressions
 
 ### Character Classes
+
+
 
 ### The OR Operator
 
