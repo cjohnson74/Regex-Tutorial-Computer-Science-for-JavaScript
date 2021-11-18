@@ -34,11 +34,11 @@ Now lets get into it, here is the pattern we will be decunstructing:
 
 ## Regex Components
 
-Remember that a regex [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) is considered a [literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#regexp_literals). This means that the regex pattern must be within slash characters ( **/** ).
+Remember that a regex [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) is considered a [literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#regexp_literals). This means that the regex pattern must be within slash characters ( ```/``` ).
 
 ### Anchors
 
-The characters **^** and **$** are both considered anchors.
+The characters ```^``` and ```$``` are both considered anchors. As you can see in the IP regex the ```^``` marks the beginning of the line. Then the ```$``` is just before the final forward slash to mark the end of the line.
 
 | Character | Definition                                                           | Example      | Matches  |
 | :-------: | :------------------------------------------------------------------: | :----------: | :------: |
@@ -46,6 +46,7 @@ The characters **^** and **$** are both considered anchors.
 |   **$**   |  Signifies a string that ends with the characters that precede it    | .com$ | "webite.com" or "email@gmail.com" |
 
 ### Quantifiers
+
 
 ### Grouping Constructs
 
