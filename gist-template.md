@@ -17,8 +17,7 @@ Now lets get into it, here is the pattern we will be decunstructing:
 
 [01]?[0-9][0-9]?)$/
 ```
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+![IP_Regex](https://user-images.githubusercontent.com/52815609/142356111-d4501b58-3c05-4230-b4eb-e9c87203be78.jpeg)
 
 ## Table of Contents
 
