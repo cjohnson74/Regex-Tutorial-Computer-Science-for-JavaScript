@@ -1,8 +1,22 @@
-# Computer Science for JavaScript: Regex Tutorial
+# Computer Science for JavaScript: Matching an IP Address with Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Have you ever needed to find an IP address in a body of text, within code, in an API or Database? Probably not, but after going through this tutorial you will know how to just using [regex](https://www.computerhope.com/jargon/r/regex.htm). After this tutorial you will also be able to utilize regular expressions to find and search anything, by creating your own patterns.
 
 ## Summary
+
+For the record I did not come up with this regex pattern myself. I will be using this regex pattern as a teaching example. By breakdown this regex down character for character I will be able to show you the different parts and pieces of a regex.
+
+Now lets get into it, here is the pattern we will be decunstructing:
+
+```javascript
+/^(?:(?:25[0-5]|
+
+2[0-4][0-9]|[01]?[0-9][0-9]?)
+
+\.){3}(?:25[0-5]|2[0-4][0-9]|
+
+[01]?[0-9][0-9]?)$/
+```
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
@@ -23,7 +37,7 @@ Remember that a regex [regular expression](https://developer.mozilla.org/en-US/d
 
 ### Anchors
 
-The characters ^ and $ are both considered anchors.
+The characters **^** and **$** are both considered anchors.
 
 | Character | Definition                                                           | Example      | Matches  |
 | :-------: | :------------------------------------------------------------------: | :----------: | :------: |
