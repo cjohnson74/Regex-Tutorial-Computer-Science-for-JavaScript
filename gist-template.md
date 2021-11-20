@@ -61,7 +61,7 @@ A [quantifier](https://docs.microsoft.com/en-us/dotnet/standard/base-types/quant
 
 ### Grouping Constructs
 
-A [group construct](https://docs.microsoft.com/en-us/dotnet/standard/base-types/grouping-constructs-in-regular-expressions) allows you to do many apply  to a [subexpression](https://support.smartbear.com/loadcomplete/docs/ref/misc/using-subexpressions.html) in your regular expression. Here are a couple examples of using grouping constructs in the [IP address example](#ip-example). you can tell they are grouping constructs because of the parenthesis that capture the many subexpressions within them:
+A [group construct](https://docs.microsoft.com/en-us/dotnet/standard/base-types/grouping-constructs-in-regular-expressions) allows you to do many things to a [subexpression](https://support.smartbear.com/loadcomplete/docs/ref/misc/using-subexpressions.html) in your regular expression. Here are a couple examples of using grouping constructs in the [IP address example](#ip-example). you can tell they are grouping constructs because of the parenthesis that capture the many subexpressions within them:
 
 ```javascript
 (?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.)
@@ -108,7 +108,7 @@ The [OR](https://kodejava.org/how-do-i-use-logical-or-operator-in-regex/) operat
 
 ## Author
 
-<p>I am a Full-stack Software Engineering professional with newly acquired skills from the University of Central Florida full-stack boot camp. Experienced in JavaScript, HTML, CSS, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express.js, and React.js. Able to grasp new concepts quickly and implement them immediately to solve problems effectively. Ready to take on any challenge and do whatever it takes; to effectively solve big picture problems. Great leadership abilities and can bring the best out of their team. Also equipped with an eagerness to listen, learn and follow the direction of a project manager to fit any role a team needs.</p>
+<p>Full-stack Software Engineering professional with newly acquired skills from the University of Central Florida full-stack boot camp. Experienced in JavaScript, HTML, CSS, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express.js, and React.js. Able to grasp new concepts quickly and implement them immediately to solve problems effectively. Ready to take on any challenge and do whatever it takes; to effectively solve big picture problems. Great leadership abilities and can bring the best out of their team. Also equipped with an eagerness to listen, learn and follow the direction of a project manager to fit any role a team needs.</p>
 <p align="center">Questions about this this gist? Please contact me: <a href="mailto:carson74johnson@gmail.com"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>.</p>
 <p align="center">View more of my work on my <a href="https://github.com/cjohnson74"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a> profile.</p> 
 <p align="center">You can also message me with questions on my <a href="https://www.linkedin.com/in/carson74johnson/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>.</p>
